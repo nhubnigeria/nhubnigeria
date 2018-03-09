@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/uikit.min.css">
+    <script src="js/uikit.min.js"></script>
+    <link rel="stylesheet" href="css/preloader.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div uk-sticky="animation: uk-animation-slide-top; sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky; cls-inactive: uk-navbar-transparent; top: 100">
+    <nav id="abNav" class="uk-navbar-container uk-position-z-index uk-navbar-transparent uk-background-blend-exclusion" uk-navbar="dropbar: true">
+        <div class="uk-navbar-left">
+            <img src="img/logo.png" alt="">
+        </div>
+        <div class="uk-navbar-right">
+            <ul class="uk-navbar-nav">
+                <li class="uk-active"><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Team</a></li>
+                <li><a href="#">Programme</a></li>
+                <li><a href="#">Events</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Contact</a></li>
+                <li>
+                    <a class="uk-navbar-toggle hidde" uk-navbar-toggle-icon href="#"></a>
+                    <div class="uk-navbar-dropdown">
+                        <ul class="uk-nav uk-navbar-dropdown-nav">
+                            <li class="uk-active"><a href="#">About</a></li>
+                            <li><a href="#">Team</a></li>
+                            <li><a href="#">Programme</a></li>
+                            <li><a href="#">Events</a></li>
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="#">Contact</a></li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</div>
+    <div class="uk-position-top">
+        <div id="about" class="uk-overflow-hidden uk-position-relative" uk-grid>
+            <div class="uk-flex-center events uk-child-width-1-2@m" uk-grid>
+                <div class="tuw uk-flex-last@m">
+                </div>
+                <div class="eves uk-text-left">
+                        <div>
+                            <h2 class="uk-margin-large-top uk-heading-primary uk-margin-small-bottom">about <span class="uk-text-bold">nHub</span></h2>
+                                <p class="uk-margin-small-bottom">nHub plays a leadership role in nurturing dialogue, disseminating knowledge and re-wiring the ecosystem through different community based efforts that are geared towards building a generation of new entrepreneurs, software developers and an army of skilled and employable young people matching industry needs in priority sectors.</p>
+
+                                <p class="uk-margin-small-bottom">We believe technology is a catalyst for growth and that client satisfaction is driven by best and timely services.
+                                </p>
+                                <p class="uk-margin-small-bottom">We are focus on empowering entrepreneurs on their journey to build great ideas out of little or nothing, we work with Start-ups at every stage of maturity to provide the tools, resources, knowledge and expertise they need to succeed.</p>
+                                <p class="uk-margin-small-bottom">We help Start-ups scale their businesses, bring innovative services to the market and reach new customers through our connections. Our work span from conceiving ideas, trainings, incubation, collaboration and creation of services.</p>
+                        </div>
+                    </div>
+            </div>
+        </div>
+<div class="wwa uk-grid-collapse" uk-grid>
+    <div class="uk-overflow-hidden uk-width-1-3@m">
+        <img class="who" src="img/slide3.jpg" alt="">
+    </div>
+    <div class="uk-width-2-3@m">
+        <div class="text uk-text-left">
+            <h2 class="uk-heading-primary">Who we Are</h2>
+            <p>We are a technology innovation hub that provides a wide range of Tech Inclined products and services, as well as incubation and acceleration programmes focused on innovation, job creation, social impact, skill acquisition and youth engagements. Our mission is very clear - provide best and fully tested products and solutions for our customers. </p>
+            <a class="more-orange  uk-margin-remove-top" href="">Meet the team</a>
+        </div>
+    </div>
+</div>
+        <footer class="uk-section footer uk-margin-remove-top uk-child-width-1-3@m uk-height-viewport" uk-grid>
+            <div class="uk-flex-last@m">
+
+                <div id="gmap" class="mini-div">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15722.66190857747!2d8.874156!3d9.878407!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x6acc9688fcb7e771!2snHub+Nigeria!5e0!3m2!1sen!2sng!4v1518446888456" width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen></iframe>
+                </div>
+            </div>
+            <div class="uk-flex-between@m">
+                <div class="uk-text-left uk-padding-small form">
+                    <h2 class="uk-heading-primary uk-margin-bottom">Reach <span class="uk-text-bold">Us</span></h2>
+                    <p>3rd Floor, TAEN Business Complex, Opposite former NITEL Office, Yakubu, Gowon Way, Jos, Nigeria</p>
+                    <form class="uk-margin-medium-top">
+                        <fieldset class="uk-fieldset">
+
+                            <div class="uk-margin">
+                                <input class="uk-input" type="text" placeholder="Name">
+                            </div>
+
+                            <div class="uk-margin">
+                                <input class="uk-input" type="text" placeholder="Email Address">
+                            </div>
+
+                            <div class="uk-margin">
+                                <input class="uk-input" type="text" placeholder="Phone Number">
+                            </div>
+
+                            <div class="uk-margin">
+                                <textarea class="uk-textarea" rows="5" placeholder="Message"></textarea>
+                            </div>
+
+                            <div class="uk-margin">
+                                <input class="uk-button uk-button-default" type="submit" value="Send Message">
+                            </div>
+                        </fieldset>
+                    </form>
+                </div>
+            </div>
+            <div class="uk-flex-first@m">
+                <div class="uk-text-center sosh">
+                    <img src="img/logo2.png" alt="">
+                    <p class="uk-margin-medium"><span class="uk-margin-small-right" uk-icon="icon: mail"></span>info@nhubnigeria.com</p>
+                    <p class="uk-margin-medium-bottom"><span class="uk-margin-small-right" uk-icon="icon: receiver"></span>(+234) 806-889-7177</p>
+                    <p>
+                        <a href="#" class="uk-icon-button  uk-margin-small-right facebook" uk-icon="icon: facebook"></a>
+                        <a href="#" class="uk-icon-button  uk-margin-small-right twitter" uk-icon="icon: twitter"></a>
+                        <a href="#" class="uk-icon-button  uk-margin-small-right google" uk-icon="icon: google"></a>
+                        <a href="#" class="uk-icon-button  uk-margin-small-right instagram" uk-icon="icon: instagram"></a>
+                        <a href="#" class="uk-icon-button  uk-margin-small-right linkedin" uk-icon="icon: linkedin"></a>
+                    </p>
+                </div>
+            </div>
+        </footer>
+    </div>
+<script src="js/uikit-icons.min.js"></script>
+<script src="js/preloader.js"></script>
+<script src="js/index.js"></script>
+</body>
+</html>
